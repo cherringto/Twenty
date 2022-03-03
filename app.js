@@ -43,21 +43,21 @@ do {
         alert("Game over. You've gone over 20.")
         break;
         
-        } else if (userTotal < 20) {
+        } else if (userTotal <= 20) {
     
     
         alert("Now it is your turn.");
         
         var draw = prompt("Do you want to draw? Type 'y' for yes and 'n' for no.");
         
-        if (userTotal >= 20) {
+        if (userTotal > 20) {
         
-            alert("Game over. You've hit 20.")
+            alert("Game over. You've gone over 20.")
             
         
         } else if (draw == "y") {
         
-            var userNum = Math.floor(Math.random() * 10) + 1;
+            var userNum = 20;
             
             alert(`You drew ${userNum}.`);
             
