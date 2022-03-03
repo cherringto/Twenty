@@ -57,7 +57,7 @@ do {
         
         } else if (draw == "y") {
         
-            var userNum = 20;
+            var userNum = Math.floor(Math.random() * 10) + 1;
             
             alert(`You drew ${userNum}.`);
             
