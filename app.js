@@ -143,3 +143,5 @@ do {
 do while to get comp number -- if comp goes over 20, stop
 do while to get user number -- if user goes over 20, stop
 compare -- if user and comp under 20, then check greater than //  if user over 20, comp wins // if comp over 20, user wins
+
+github test comment
